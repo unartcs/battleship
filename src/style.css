@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background: rgb(39, 88, 137);
+}
+
+.game-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.game-box {
+  border: 1px solid black;
+}
+
+.game-box:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.game-rotation-button {
+  width: 100px;
+}
+
+.ship-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.ship-item {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.ship-item-icon-group {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.ship-item-icon {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+}
